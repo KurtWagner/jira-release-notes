@@ -4,6 +4,8 @@ A command line tool that pulls and prints notes about a given jira release. This
 
 :warning: It does _not_ support pagination (so max 50 issues) and has no automated tests. If you want to submit a PR for this, please go for it :heart:
 
+This tool ignores sub-tasks and epics.
+
 ```
 $ npm -g install jira-release-notes
 $ jira-release-notes [options]
