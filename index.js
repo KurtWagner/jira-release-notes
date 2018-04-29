@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-'use strict';
+"use strict";
 
 const logger = require("./lib/logger");
 const jira = require("./lib/jira");
