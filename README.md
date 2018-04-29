@@ -27,9 +27,9 @@ The JIRA username to log in.
 
 The JIRA password for the given username. Please use an [API Token](https://developer.atlassian.com/cloud/jira/platform/jira-rest-api-basic-authentication/#getting-your-api-token) instead of your actual password. Also please ensure you take appropriate measures to hide this detail from any output or logs :see_no_evil: .
 
-### -f, --filter-release
+### -f, --filter-version
 
-The name of the release you want to create notes for. We'll compare this to the "Fix Version".
+The name of the release version you want to create notes for. We'll compare this to the "Fix Version".
 
 ### -v, --verbose
 
