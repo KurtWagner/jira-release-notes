@@ -1,26 +1,31 @@
 {
   "name": "jira-release-notes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate release notes from JIRA fix versions",
   "main": "index.js",
   "scripts": {
     "precommit": "lint-staged"
   },
-  "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/KurtWagner/jira-release-notes.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KurtWagner/jira-release-notes.git"
   },
   "bin": {
-		"jira-release-notes": "./index.js"
-	},
-  "keywords": ["jira", "release", "notes", "slack"],
+    "jira-release-notes": "./index.js"
+  },
+  "keywords": [
+    "jira",
+    "release",
+    "notes",
+    "slack"
+  ],
   "author": "Kurt Wagner",
   "license": "MIT",
   "dependencies": {
     "chalk": "2.4.1",
-    "commander": "2.15.1",
+    "commander": "2.16.0",
     "pluralize": "7.0.0",
-    "request": "2.85.0",
+    "request": "2.87.0",
     "request-promise": "4.2.2"
   },
   "engines": {
@@ -28,12 +33,15 @@
   },
   "devDependencies": {
     "husky": "0.14.3",
-    "lint-staged": "7.0.5",
-    "prettier": "1.12.1",
-    "prettier-eslint": "8.8.1",
+    "lint-staged": "7.2.0",
+    "prettier": "1.13.7",
+    "prettier-eslint": "8.8.2",
     "prettier-eslint-cli": "4.7.1"
   },
   "lint-staged": {
-    "*.{js,json}": ["prettier-eslint --write", "git add"]
+    "*.{js,json}": [
+      "prettier-eslint --write",
+      "git add"
+    ]
   }
 }
