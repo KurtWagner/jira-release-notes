@@ -1,6 +1,6 @@
 {
   "name": "jira-release-notes",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate release notes from JIRA fix versions",
   "main": "index.js",
   "scripts": {
